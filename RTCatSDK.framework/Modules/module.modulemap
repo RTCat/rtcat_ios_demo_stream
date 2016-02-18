@@ -1,0 +1,6 @@
+framework module RTCatSDK {
+  umbrella header "RTCatSDK.h"
+
+  export *
+  module * { export * }
+}
