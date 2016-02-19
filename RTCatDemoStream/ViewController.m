@@ -40,9 +40,11 @@
     [_localView setBackgroundColor:[UIColor redColor]];
     
     [self.view addSubview:_localView];
+    
+    
     [_localView setDelegate:self];
 
-
+    
     RTCat *cat = [RTCat shareInstance];
     _localStream = [cat createStreamWithVideo:YES withAudio:YES Fps:20 width:_localView.bounds.size.width height:_localView.bounds.size.height videoIndex:RTCamrareBack withDelagete:self];
     [_localStream play:_localView];
