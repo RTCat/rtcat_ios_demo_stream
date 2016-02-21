@@ -6,7 +6,7 @@
 
 1.下载代码
 ```
-	git clone https://github.com/zombiecong/rtcat_ios_demo_stream.git
+	git clone https://github.com/RTCat/rtcat_ios_demo_stream.git
 ```
 
 2.下载 `RTCat.framework`
